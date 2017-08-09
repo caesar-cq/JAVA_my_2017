@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Configs>
+	<Config>
+		<Name>小球</Name>
+		<ClassName>domain.Ball</ClassName>
+		<Sliders>
+			<Slider id="0">
+				<Title>水平</Title>
+				<Min>0</Min>
+				<Max>20</Max>
+				<Cur>0</Cur>
+				<RateFactor>1</RateFactor>
+			</Slider>
+			<Slider id="1">
+				<Title>垂直</Title>
+				<Min>0</Min>
+				<Max>20</Max>
+				<Cur>0</Cur>
+				<RateFactor>1</RateFactor>
+			</Slider>
+		</Sliders>
+	</Config>
+	<Config>
+		<Name>圆周运动</Name>
+		<ClassName>domain.CircleMotion</ClassName>
+		<Sliders>
+			<Slider id="0">
+				<Title>半径</Title>
+				<Min>20</Min>
+				<Max>260</Max>
+				<Cur>260</Cur>
+				<RateFactor>1</RateFactor>
+			</Slider>
+			<Slider id="1">
+				<Title>转速</Title>
+				<Min>0</Min>
+				<Max>100</Max>
+				<Cur>0</Cur>
+				<RateFactor>400</RateFactor>
+			</Slider>
+		</Sliders>
+	</Config>
+</Configs> 
+
+
+
